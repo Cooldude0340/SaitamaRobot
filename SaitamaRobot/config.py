@@ -58,7 +58,7 @@ class Config(object):
     BAN_STICKER = "CAACAgUAAx0CVf-FbQACW5hgtIyK634w_0kR4XyAEIX9eg_z6gACsQEAAhZVQFRo6sRCY0kqgB8E"  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "3MWKB4DRAM0B216U"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
     TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
