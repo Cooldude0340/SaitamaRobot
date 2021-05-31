@@ -14,27 +14,27 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
+    API_ID = 2712818  # integer value, dont use ""
+    API_HASH = "fda406cc4f648c303a0fb77255f2a026"
+    TOKEN = "1675150443:AAG02T4YbeJh86UPj8RbTJapDbiVroJrhNc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1517181772  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "C_O_O_L_D_U_D_E"
     SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001340801596
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001340801596
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "postgres://eilwtcou:tjcsgFATbLVwjFUwW9cj2EhLvPv7za2M@kashin.db.elephantsql.com/eilwtcou"  # needed for any database modules # its "URI" and not "URL" as heroku and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "WtVoY5eIvpIqakuWsHiMU29C1Xsjcqj3SpMLfldZ3u8zKshloS0meZAPy~ourVt1"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
@@ -55,7 +55,7 @@ class Config(object):
     WORKERS = (
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
-    BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    BAN_STICKER = "CAACAgUAAx0CVf-FbQACW5hgtIyK634w_0kR4XyAEIX9eg_z6gACsQEAAhZVQFRo6sRCY0kqgB8E"  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
